@@ -51,6 +51,7 @@
 		068F37921D34BDEA00DCBA59 /* const,static和externUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "const,static和externUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		068F37961D34BDEA00DCBA59 /* const_static_externUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = const_static_externUITests.m; sourceTree = "<group>"; };
 		068F37981D34BDEA00DCBA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068F37A41D34BE3F00DCBA59 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				068F37751D34BDEA00DCBA59 /* AppDelegate.m */,
 				068F37771D34BDEA00DCBA59 /* ViewController.h */,
 				068F37781D34BDEA00DCBA59 /* ViewController.m */,
+				068F37A41D34BE3F00DCBA59 /* Header.h */,
 				068F377A1D34BDEA00DCBA59 /* Main.storyboard */,
 				068F377D1D34BDEA00DCBA59 /* Assets.xcassets */,
 				068F377F1D34BDEA00DCBA59 /* LaunchScreen.storyboard */,
