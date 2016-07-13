@@ -54,8 +54,17 @@
  
     使用场景，一般用于声明全局变量
  UIKIT_EXTERN NSString *const UITableViewSelectionDidChangeNotification;
+ 
+ 
+    static和const的联合使用
+    static和const修饰全局变量
+    static修饰全局变量，修改作用域，表示在当前文件中使用
+    const修饰变量，变量只读
+    静态全局只读变量
  */
 
+//当前字符串只能在本文件使用，并且只读，不能修改
+static NSString * const name = @"123";
 
 //定义静态全局变量，只能在当前文件内使用
 static int i = 2;
